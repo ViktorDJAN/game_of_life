@@ -1,6 +1,9 @@
 # Game of life. 
-### Instruction for running the program
 
+### Instruction for running the program
+For runing is necessary to write the following command in the terminal  java -jar task_one.jar
+
+### Instruction of usage the program
 * Enter an array width value 
 * Enter an array height value
 * Tap the  "s" button in order to see  a created array
