@@ -53,7 +53,7 @@ public class App {
     static void arrayPrintInit(String[][] array) {    // serves for the first initialization
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
-                array[i][j]="o";
+                array[i][j]=".";
                 ;
             }
         }
@@ -113,14 +113,14 @@ public class App {
                     if(array[i+1][j]=="X") { cellCount +=1;}
                 }
                 if(cellCount ==3){
-                    if(array[i][j]=="o"){
+                    if(array[i][j]=="."){
                         future[i][j]="X";
 
                     }
                 }
                 else if(cellCount==1 || cellCount>3){
                     if(array[i][j]=="X"){
-                        future[i][j] = "o";
+                        future[i][j] = ".";
                     }
                 }
             }
